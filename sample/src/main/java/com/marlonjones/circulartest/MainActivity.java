@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        progBar = (ProgressBar) findViewById(R.id.progressBar);
+        //progBar = (ProgressBar) findViewById(R.id.progressBar);
 
         animateBar();
     }
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                     // Update progress bar to 80%. Change 80% to whatever value or resource needed.
                     mHandler.post(new Runnable() {
                         public void run() {
-                            progBar.setProgress(mProgressStatus);
+                           // progBar.setProgress(mProgressStatus);
                         }
                     });
                     try {
