@@ -5,5 +5,5 @@
     android:layout_height="300dp"
     android:indeterminate="false"
     android:max="100"
-    android:progressDrawable="@xml/progress"
+    android:progressDrawable="@drawable/progress"
     xmlns:android="http://schemas.android.com/apk/res/android" />
