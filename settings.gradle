@@ -1,1 +1,1 @@
-include ':sample', ':progressbar'
+include ':progressbar'
