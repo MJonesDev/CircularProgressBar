@@ -47,7 +47,8 @@ value that you have given it in this companion Java code:
                 final int percent = 0;
                 while (mProgressStatus < 80) {
                     mProgressStatus += 1;
-                    // Update progress bar to 80%. Change 80% to whatever value or resource needed. //THIS IS THE VALUE 
+                    // Update progress bar to 80%. Change 80% to whatever value or resource needed. 
+                    //80 Is the Value 
                     mHandler.post(new Runnable() {
                         public void run() {
                            // progBar.setProgress(mProgressStatus);
