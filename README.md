@@ -2,7 +2,7 @@
 This is just simple sample code to make a circular progress bar on Android. Simple to impliment, yet can be modified to your 
 use and liking.
 
-##Use
+## Use
 Make a drawable file to be used for the progress bar.
 ````
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android"
